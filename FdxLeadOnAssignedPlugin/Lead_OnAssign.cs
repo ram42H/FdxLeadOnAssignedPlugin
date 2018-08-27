@@ -18,7 +18,7 @@ namespace FdxLeadOnAssignedPlugin
             ITracingService tracingService =
                 (ITracingService)serviceProvider.GetService(typeof(ITracingService));
 
-            //Obtain execution contest from the service provider....
+            //Obtain execution contest from the service provider.....
             IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
             int step = 0;
 
